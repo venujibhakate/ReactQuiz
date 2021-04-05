@@ -37,6 +37,7 @@ class Quiz extends Component {
     var yyyy = today.getFullYear();
     today =  yyyy+"-"+mm+"-"+dd;
 
+    
     const newUser = {
       Username: this.state.Username,
       Date: today,
